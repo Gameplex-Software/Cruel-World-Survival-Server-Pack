@@ -1,0 +1,118 @@
+type = menu
+
+customization-meta {
+  identifier = com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu
+  renderorder = foreground
+}
+
+customization {
+  path = ./resources/mainmenu/sounds/1.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = -10
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -56
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -8
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -99
+  width = 200
+  action = addbutton
+  y = 16
+  label = Credits
+  value = Credits
+  height = 20
+}
+
+customization {
+  path = resources/mainmenu/textures/title.png
+  orientation = top-left
+  x = 151
+  width = 317
+  action = addtexture
+  y = -2
+  height = 35
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  centered = false
+  x = 275
+  action = addtext
+  y = 34
+  scale = 1.0
+  value = Java Edition
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 0
+  width = 55
+  action = addbutton
+  y = 0
+  label = Website
+  value = https://gameplex-software.github.io/CDN/project releases/mods/cws
+  height = 20
+}
+

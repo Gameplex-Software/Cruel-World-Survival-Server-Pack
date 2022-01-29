@@ -1,0 +1,44 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.inventory.GuiContainerCreative
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = bottom-left
+  x = 261
+  width = 115
+  actionid = f8ba80fc-13e2-4f12-b720-c0c202e4b7541630098496551
+  action = addtexture
+  y = -32
+  height = 37
+}
+
+customization {
+  path = resources/logo.png
+  orientation = bottom-left
+  x = 266
+  width = 30
+  actionid = f1084eaf-1130-41b0-86ac-b31baa7623671630098408320
+  action = addtexture
+  y = -27
+  height = 28
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 298
+  actionid = eada1dea-fa10-44c1-bf49-b00447f198c11630098441163
+  action = addtext
+  y = -18
+  scale = 1.0
+  alignment = left
+  value = cwsmc.github.io
+}
+

@@ -1,0 +1,68 @@
+type = customizablemenus
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraftforge.fml.client.GuiModList {
+}
+
+net.minecraft.client.gui.GuiScreenResourcePacks {
+}
+
+net.optifine.shaders.gui.GuiShaders {
+}
+
+net.gliby.voicechat.client.gui.options.GuiScreenOptionsWizard {
+}
+
+vazkii.quark.base.client.gui.config.GuiConfigRoot {
+}
+
+net.minecraft.client.gui.GuiVideoSettings {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiWinGame {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+net.minecraft.client.gui.achievement.GuiStats {
+}
+
+betteradvancements.gui.GuiScreenBetterAdvancements {
+}
+
+net.minecraft.client.gui.GuiShareToLan {
+}
+
+net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+net.minecraft.client.gui.GuiCreateWorld {
+}
+
+net.minecraft.client.gui.inventory.GuiInventory {
+}
+
+net.minecraft.client.gui.GuiScreenAddServer {
+}
+
+net.optifine.gui.GuiChatOF {
+}
+
+net.minecraft.client.gui.GuiGameOver {
+}
+
+net.minecraft.client.gui.GuiMultiplayer {
+}
+
+technicianlp.reauth.ConfigGUI {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+

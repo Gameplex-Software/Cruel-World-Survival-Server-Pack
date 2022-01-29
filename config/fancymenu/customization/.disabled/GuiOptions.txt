@@ -1,0 +1,54 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiOptions
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=505154%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -164
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -164
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = mid-centered
+  x = -116
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=400334%
+  width = 233
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345208%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -110
+}
+
+customization {
+  identifier = %id=505208%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = -110
+}
+

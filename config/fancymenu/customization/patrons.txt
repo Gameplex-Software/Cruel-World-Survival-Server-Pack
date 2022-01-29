@@ -1,0 +1,77 @@
+type = menu
+
+customization-meta {
+  identifier = Top-Patrons
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = minecraftyoutube
+  action = animatebackground
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-centered
+  x = -315
+  width = 628
+  actionid = e7e8e27d-9b3a-4a3b-a11a-0bf2e0946c361630156613104
+  action = addtexture
+  y = -129
+  height = 339
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -42
+  actionid = ae5ad63c-b93d-4b55-9f2d-8973910e8e631630165977234
+  action = addtext
+  y = -125
+  scale = 1.0
+  alignment = left
+  value = §a§l§nTop Patrons
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  multiline = false
+  x = -305
+  action = addwebtext
+  actionid = 793eacc9-df5c-474c-9ec8-b7694cfbfd921630166071446
+  y = -102
+  scale = 1.0
+  alignment = left
+  url = https://gameplex-software.github.io/sites/cws/top-donations.txt
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = closegui
+  x = 8
+  width = 100
+  actionid = 8c56000c-85e6-411b-8c4c-ec1d807aa0e61630166322298
+  action = addbutton
+  y = 184
+  label = Back
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = reloadmenu
+  x = -96
+  width = 100
+  actionid = ebc983ec-960e-4ef6-bb47-bc172364dd231630166322298
+  action = addbutton
+  y = 184
+  label = Refresh
+  value = 
+  height = 20
+}
+

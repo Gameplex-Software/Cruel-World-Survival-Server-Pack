@@ -1,0 +1,29 @@
+{
+  "inventory": {
+    "0:0": "minecraft:wooden_sword",
+    "0:35": "minecraft:torch",
+    "0:10": "forestry:book_forester",
+    "0:18": "calemiutils:coin_nickel,2",
+    "0:22": "minecraft:cooked_porkchop",
+    "0:25": "minecraft:torch",
+    "0:9": "ebwizardry:wizard_handbook",
+    "0:33": "minecraft:torch",
+    "0:17": "minecraft:torch",
+    "0:13": "patchouli:guide_book,1,0,{\"patchouli:book\":\"bewitchment:book_of_shadows\"}",
+    "0:16": "levelup2:skillbook",
+    "0:1": "minecraft:stone_axe",
+    "0:27": "minecraft:potion,1,0,{Potion:\"minecraft:water\"}",
+    "0:14": "patchouli:guide_book,1,0,{\"patchouli:book\":\"bigreactors:erguide\"}",
+    "0:24": "minecraft:cooked_porkchop",
+    "0:11": "levelup2:skillbook",
+    "0:15": "levelup2:respecbook",
+    "0:4": "waystones:waystone",
+    "0:20": "minecraft:potion,1,0,{Potion:\"minecraft:water\"}",
+    "0:30": "calemiutils:coin_penny",
+    "0:8": "calemiutils:wallet,1,0,{}",
+    "0:12": "tconstruct:book",
+    "0:34": "minecraft:cooked_porkchop",
+    "0:26": "calemiutils:coin_quarter",
+    "0:32": "minecraft:cooked_porkchop"
+  }
+}

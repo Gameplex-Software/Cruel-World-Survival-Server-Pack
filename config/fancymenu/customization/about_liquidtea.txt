@@ -1,0 +1,68 @@
+type = menu
+
+customization-meta {
+  identifier = about_liquidtea
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/minecraft-make-book-and-quill-step-1.png
+  orientation = mid-centered
+  x = -191
+  width = 382
+  actionid = 8ae8fd44-d1ae-4302-85d5-581232febfdf1629387682318
+  action = addtexture
+  y = -180
+  height = 360
+}
+
+customization {
+  path = resources/creators/liquidtea.png
+  orientation = mid-centered
+  x = -180
+  width = 35
+  actionid = 411dd8aa-f0bb-4aee-b210-ff4b01e122931629387682319
+  action = addtexture
+  y = -169
+  height = 35
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -140
+  actionid = 2ba3796c-162d-4157-bec3-8522a40b9d361629387682321
+  action = addtext
+  y = -155
+  scale = 1.0
+  alignment = left
+  value = Liquid Tea
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -45
+  width = 100
+  actionid = f9824a51-082b-4532-92df-23e61b0449e31629387682328
+  action = addbutton
+  y = 151
+  label = Close Profile
+  value = Credits
+  height = 20
+}
+
+customization {
+  path = resources/creators/about_liquidtea.png
+  orientation = top-left
+  x = 301
+  width = 349
+  actionid = 7ca1caf9-f8a4-4c88-a2cc-f781b5fc69421629387719668
+  action = addtexture
+  y = 179
+  height = 121
+}
+

@@ -1,0 +1,292 @@
+identifier = MainMenu
+title = 
+allowesc = false
+
+customization-meta {
+  identifier = gui.GuiMainMenu
+  renderorder = foreground
+}
+
+customization {
+  name = minecraftyoutube
+  action = animatebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  path = ./resources/mainmenu/sounds/1.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=376346%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376346%
+  action = setbuttonlabel
+  value = Quark Options
+}
+
+customization {
+  identifier = %id=376346%
+  seconds = 1.6
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 17
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 1.6
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 65
+}
+
+customization {
+  identifier = %id=502382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  seconds = 1.8
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=376382%
+  seconds = 1.55
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -31
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 1.4
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=400298%
+  seconds = 1.3
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -7
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = Mod List
+}
+
+customization {
+  identifier = %id=400346%
+  seconds = 1.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/mainmenu/textures/title.png
+  orientation = top-centered
+  x = -226
+  width = 452
+  action = addtexture
+  y = 0
+  height = 50
+}
+
+customization {
+  path = resources/minecraft-make-book-and-quill-step-1.png
+  orientation = mid-right
+  x = -119
+  width = 118
+  action = addtexture
+  y = -89
+  height = 179
+}
+
+customization {
+  path = resources/creators/tristanpoland.png
+  orientation = mid-right
+  x = -115
+  width = 23
+  action = addtexture
+  y = -19
+  height = 23
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  centered = false
+  x = -101
+  action = addtext
+  y = -83
+  scale = 1.0
+  value = Pack Developers
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  centered = false
+  x = -90
+  action = addtext
+  y = -12
+  scale = 1.0
+  value = Tristan Poland
+}
+
+customization {
+  path = resources/creators/liquidtea.png
+  orientation = mid-right
+  x = -115
+  width = 23
+  action = addtexture
+  y = -47
+  height = 23
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  centered = false
+  x = -89
+  action = addtext
+  y = -39
+  scale = 1.0
+  value = LiquidTea
+}
+
+customization {
+  orientation = mid-right
+  buttonaction = opencustomgui
+  x = -110
+  width = 100
+  action = addbutton
+  y = 59
+  label = Credits
+  value = Credits
+  height = 20
+}
+
+customization {
+  path = resources/creators/wrytzi.png
+  orientation = mid-right
+  x = -115
+  width = 23
+  action = addtexture
+  y = 9
+  height = 23
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  centered = false
+  x = -90
+  action = addtext
+  y = 15
+  scale = 1.0
+  value = Wrytzi
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  centered = false
+  x = 3
+  action = addtext
+  y = -10
+  scale = 1.0
+  value = Developed by the CWS official Dev team
+}
+
+customization {
+  hideforseconds = 1.7
+  orientation = top-left
+  buttonaction = openlink
+  x = 380
+  width = 200
+  action = addbutton
+  y = 341
+  description = Open Web Link
+  label = Player Help
+  value = https://gameplex-software.github.io/sites/cws/docs
+  height = 20
+}
+

@@ -1,0 +1,83 @@
+type = menu
+
+customization-meta {
+  identifier = vazkii.quark.base.client.gui.config.GuiConfigRoot
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=451311%
+  orientation = mid-centered
+  x = -34
+  action = movebutton
+  y = 75
+}
+
+customization {
+  identifier = %id=451311%
+  width = 66
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=451333%
+  orientation = mid-centered
+  x = 5
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=551311%
+  orientation = mid-centered
+  x = 36
+  action = movebutton
+  y = 75
+}
+
+customization {
+  identifier = %id=551311%
+  width = 67
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=351311%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 75
+}
+
+customization {
+  identifier = %id=351311%
+  width = 65
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=351333%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=551333%
+  orientation = mid-centered
+  x = -103
+  action = movebutton
+  y = 50
+}
+
+customization {
+  identifier = %id=551333%
+  width = 206
+  action = resizebutton
+  height = 20
+}
+

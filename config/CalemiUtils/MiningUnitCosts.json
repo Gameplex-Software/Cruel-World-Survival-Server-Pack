@@ -1,0 +1,98 @@
+{
+  "oreAluminum": {
+    "oreName": "oreAluminum",
+    "cost": 3
+  },
+  "oreArdite": {
+    "oreName": "oreArdite",
+    "cost": 50
+  },
+  "oreQuartz": {
+    "oreName": "oreQuartz",
+    "cost": 5
+  },
+  "oreIron": {
+    "oreName": "oreIron",
+    "cost": 2
+  },
+  "oreTin": {
+    "oreName": "oreTin",
+    "cost": 2
+  },
+  "oreSilver": {
+    "oreName": "oreSilver",
+    "cost": 4
+  },
+  "oreRuby": {
+    "oreName": "oreRuby",
+    "cost": 5
+  },
+  "oreGold": {
+    "oreName": "oreGold",
+    "cost": 5
+  },
+  "oreLead": {
+    "oreName": "oreLead",
+    "cost": 3
+  },
+  "oreSapphire": {
+    "oreName": "oreSapphire",
+    "cost": 5
+  },
+  "oreCobalt": {
+    "oreName": "oreCobalt",
+    "cost": 50
+  },
+  "oreManaInfused": {
+    "oreName": "oreManaInfused",
+    "cost": 50
+  },
+  "oreDiamond": {
+    "oreName": "oreDiamond",
+    "cost": 50
+  },
+  "oreRedstone": {
+    "oreName": "oreRedstone",
+    "cost": 5
+  },
+  "oreIridium": {
+    "oreName": "oreIridium",
+    "cost": 25
+  },
+  "oreSulfur": {
+    "oreName": "oreSulfur",
+    "cost": 10
+  },
+  "oreCopper": {
+    "oreName": "oreCopper",
+    "cost": 2
+  },
+  "minecraft:coal": {
+    "oreName": "minecraft:coal",
+    "cost": 1
+  },
+  "orePlatinum": {
+    "oreName": "orePlatinum",
+    "cost": 25
+  },
+  "oreEmerald": {
+    "oreName": "oreEmerald",
+    "cost": 50
+  },
+  "oreUranium": {
+    "oreName": "oreUranium",
+    "cost": 50
+  },
+  "oreTopaz": {
+    "oreName": "oreTopaz",
+    "cost": 5
+  },
+  "oreNickel": {
+    "oreName": "oreNickel",
+    "cost": 10
+  },
+  "oreLapis": {
+    "oreName": "oreLapis",
+    "cost": 5
+  }
+}

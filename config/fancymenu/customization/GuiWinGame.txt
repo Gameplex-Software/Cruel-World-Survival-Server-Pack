@@ -1,0 +1,65 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWinGame
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = opengui
+  x = 4
+  width = 100
+  actionid = 22f36954-09c2-4434-b1f7-721d9cabb5501629140969383
+  action = addbutton
+  y = -24
+  label = Back
+  value = net.minecraft.client.gui.GuiMainMenu
+  height = 20
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 18
+  slim = false
+  actionid = 2d7bdf70-9cb6-4057-8b66-829f27725fb11629140719537
+  action = addentity
+  y = 79
+  scale = 30
+  playername = jeb_
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 57
+  slim = false
+  actionid = 87a5d18f-69b1-4801-8375-77e68573e7701629140721337
+  action = addentity
+  y = 79
+  scale = 30
+  playername = boq
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 96
+  slim = false
+  actionid = a1bca268-9051-4548-bfd7-c3f7c60df1351629140806232
+  action = addentity
+  y = 79
+  scale = 30
+  playername = Barney_Bear
+  parrot = false
+}
+

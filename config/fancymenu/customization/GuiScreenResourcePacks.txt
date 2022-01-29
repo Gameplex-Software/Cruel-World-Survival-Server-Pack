@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiScreenResourcePacks
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=346952%
+  orientation = bottom-centered
+  x = -204
+  action = movebutton
+  y = -50
+}
+
+customization {
+  identifier = %id=346952%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504952%
+  orientation = bottom-centered
+  x = 6
+  action = movebutton
+  y = -50
+}
+
+customization {
+  identifier = %id=504952%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+

@@ -1,0 +1,136 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  identifier = %id=400258%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -64
+}
+
+customization {
+  identifier = %id=400258%
+  action = setbuttonlabel
+  value = Resume Game
+}
+
+customization {
+  identifier = %id=400330%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 7
+}
+
+customization {
+  identifier = %id=400330%
+  action = setbuttonlabel
+  value = Options
+}
+
+customization {
+  identifier = %id=400306%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -17
+}
+
+customization {
+  identifier = %id=400306%
+  action = setbuttonlabel
+  value = Set up local server
+}
+
+customization {
+  identifier = %id=400282%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -41
+}
+
+customization {
+  identifier = %id=502282%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -41
+}
+
+customization {
+  identifier = %id=400354%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 31
+}
+
+customization {
+  identifier = %id=502330%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 7
+}
+
+customization {
+  identifier = %id=502330%
+  action = setbuttonlabel
+  value = Mod List
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = bottom-centered
+  x = -79
+  width = 162
+  actionid = f8ba80fc-13e2-4f12-b720-c0c202e4b7541630098496551
+  action = addtexture
+  y = -40
+  height = 41
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -33
+  actionid = be85cc22-56a7-4192-a00f-d4c443b454301630098745325
+  action = addtext
+  y = -26
+  scale = 1.0
+  alignment = left
+  value = https://cwsmc.github.io
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -23
+  actionid = 0093390e-b63d-42ba-b168-715b204a3f041630151701838
+  action = addtext
+  y = -38
+  scale = 1.0
+  alignment = left
+  value = Get your copy at:
+}
+
+customization {
+  path = resources/cwslogo.png
+  orientation = bottom-centered
+  x = -75
+  width = 35
+  actionid = 6cd49663-7657-47b8-a4ab-c29f93dbbf461630500766916
+  action = addtexture
+  y = -36
+  height = 35
+}
+

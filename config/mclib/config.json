@@ -1,0 +1,33 @@
+{
+    "appearance": {
+        "debug_panel": false,
+        "primary_color": 34816,
+        "enable_borders": true,
+        "enable_checkbox_rendering": false,
+        "enable_trackpad_increments": true,
+        "enable_grid_rendering": false,
+        "user_interface_scale": 2,
+        "favorite_colors": []
+    },
+    "tutorials": {
+        "enable_mouse_rendering": false,
+        "enable_mouse_buttons_rendering": false,
+        "enable_keystrokes_rendering": false,
+        "keystroke_offset": 1,
+        "keystroke_position": 1
+    },
+    "background": {
+        "color": -1392508928
+    },
+    "scrollbars": {
+        "flat": false,
+        "shadow": -2013265920,
+        "width": 4
+    },
+    "multiskin": {
+        "multithreaded": true
+    },
+    "vanilla": {
+        "max_packet_size": 32767
+    }
+}

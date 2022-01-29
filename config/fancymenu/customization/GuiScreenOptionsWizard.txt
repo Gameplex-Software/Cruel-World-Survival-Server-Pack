@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = net.gliby.voicechat.client.gui.options.GuiScreenOptionsWizard
+  renderorder = foreground
+}
+
+customization {
+  orientation = top-centered
+  shadow = false
+  centered = false
+  x = -93
+  action = addtext
+  y = 18
+  scale = 1.0
+  value = Learn how to set up your voice chat
+}
+
+customization {
+  orientation = top-centered
+  buttonaction = openlink
+  x = -50
+  width = 100
+  action = addbutton
+  y = 31
+  label = Visit Docs Page
+  value = gameplex-software.github.io/sites/cws/docs/voice-chat
+  height = 20
+}
+

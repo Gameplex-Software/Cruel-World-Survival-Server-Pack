@@ -1,0 +1,617 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = minecraftyoutube
+  action = animatebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  path = ./resources/mainmenu/sounds/1.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 14
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 1.6
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=502382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  seconds = 1.8
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -123
+  action = movebutton
+  y = 237
+}
+
+customization {
+  identifier = %id=376382%
+  seconds = 1.9
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -32
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 1.4
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=400298%
+  seconds = 1.3
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = Mod List
+}
+
+customization {
+  identifier = %id=400346%
+  seconds = 1.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = bottom-left
+  x = 0
+  width = 232
+  actionid = 1df6f2ef-14c6-499b-89cf-64ec09a59e921630066294562
+  action = addtexture
+  y = -80
+  height = 80
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-right
+  x = -120
+  width = 122
+  actionid = 3c325eb5-81ed-4782-8bdc-e47e3b3012cc1629992052347
+  action = addtexture
+  y = -100
+  height = 200
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  delayappearanceseconds = 1.2
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -102
+  actionid = f89cd3af-a413-4bed-a69e-4d8c1dccd67d1629035949864
+  action = addtext
+  y = -96
+  delayappearance = true
+  alignment = left
+  value = Pack Developers
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  delayappearanceseconds = 1.2
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -97
+  actionid = 1027cf2f-1e1d-400c-9a9e-beb79d4c44821629035949869
+  action = addtext
+  y = -32
+  delayappearance = true
+  alignment = left
+  value = Tristan Poland
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  delayappearanceseconds = 1.2
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -95
+  actionid = 40e426c7-ce69-4544-818e-26e0bfe57a4f1629035949870
+  action = addtext
+  y = -65
+  delayappearance = true
+  alignment = left
+  value = LiquidTea
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 1.2
+  buttonaction = opencustomgui
+  label = Developers
+  fadein = true
+  fadeinspeed = 1.0
+  x = -110
+  width = 100
+  actionid = 4f9d9c85-d38e-4b25-98c4-9617727a68ce1630165830856
+  action = addbutton
+  y = 50
+  delayappearance = true
+  value = Credits
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  delayappearanceseconds = 1.2
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -97
+  actionid = 1c9973d2-997a-4700-b7a1-7e5a5c3f488b1629035949884
+  action = addtext
+  y = -3
+  delayappearance = true
+  alignment = left
+  value = Wrytzi
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 3
+  actionid = 164c3e2e-7fab-4c4f-8361-3560b721f1361629035949884
+  action = addtext
+  y = -19
+  scale = 1.0
+  alignment = left
+  value = Pack created by the CWS official Dev team
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 1.7
+  buttonaction = openlink
+  description = Open Web Link
+  label = Player Help
+  fadein = true
+  fadeinspeed = 1.0
+  x = 2
+  width = 98
+  actionid = d3ee7391-f0ae-433f-a710-67c57351ddf01630165830856
+  action = addbutton
+  y = 14
+  delayappearance = true
+  value = https://gameplex-software.github.io/sites/cws/docs
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 2.2
+  buttonaction = openlink
+  label = Join Discord
+  fadein = true
+  fadeinspeed = 1.0
+  x = -99
+  width = 98
+  actionid = b4963d8c-d2c4-4ef2-b4b5-c008495746fe1630165830857
+  action = addbutton
+  y = -52
+  delayappearance = true
+  value = https://discord.gg/kyRH3zfDa7
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 2.1
+  buttonaction = openlink
+  label = Photo Album
+  fadein = true
+  fadeinspeed = 1.0
+  x = 3
+  width = 98
+  actionid = c337f845-7da1-4c96-815a-e9a0e9d0ebd91630165830857
+  action = addbutton
+  y = -52
+  delayappearance = true
+  value = https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fphotos.app.goo.gl%252fC5noa5aWwPJGdsvcA
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 1.9
+  buttonaction = openlink
+  label = Server Status
+  fadein = true
+  fadeinspeed = 1.0
+  x = -99
+  width = 98
+  actionid = dfd89faf-050c-4c28-952f-16ee5af7f9b71630165830857
+  action = addbutton
+  y = -75
+  delayappearance = true
+  value = https://gameplex-software.github.io/sites/cws/status
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 1.9
+  buttonaction = opencustomgui
+  label = Player Creations
+  fadein = true
+  fadeinspeed = 1.0
+  x = 3
+  width = 98
+  actionid = 31e9357c-17ae-40e4-b638-7cb6b470473c1630165830857
+  action = addbutton
+  y = -75
+  delayappearance = true
+  value = GUICommunityCreations
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 4
+  actionid = fe2e1a7f-dd5d-47e0-ad47-93cb5057ad5b1629035949885
+  action = addtext
+  y = -51
+  scale = 1.0
+  alignment = left
+  value = Modpack Status: Running, OK
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 4
+  actionid = 2946b933-ea10-495b-ad89-c8da7dd690fa1629035949885
+  action = addtext
+  y = -30
+  scale = 1.0
+  alignment = left
+  value = Mods loaded: %loadedmods%/%totalmods%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 4
+  actionid = 710d01e3-ffde-4efd-80ad-854ad24135661629035949885
+  action = addtext
+  y = -61
+  scale = 1.0
+  alignment = left
+  value = Powered by Forge
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 4
+  actionid = 07bd931b-df1f-46c7-9aa4-8541f3f0d74b1629035949886
+  action = addtext
+  y = 559
+  scale = 1.0
+  alignment = left
+  value = Cruel World version 20.0.0 (6mo edition)
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  delayappearanceseconds = 1.2
+  scale = 1.0
+  fadein = true
+  fadeinspeed = 1.0
+  x = -96
+  actionid = 04bd8965-4204-4c0b-804d-5588cd83a6121629035949886
+  action = addtext
+  y = 30
+  delayappearance = true
+  alignment = left
+  value = imaphoenix
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 1.2
+  buttonaction = opencustomgui
+  label = Credits
+  fadein = true
+  fadeinspeed = 1.0
+  x = -110
+  width = 100
+  actionid = 52d32bee-1928-4144-864f-f09c95173c8e1630165830858
+  action = addbutton
+  y = 73
+  delayappearance = true
+  value = Thanks
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 1.2
+  slim = true
+  scale = 15
+  showname = false
+  crouching = false
+  x = -108
+  actionid = 6b5e2c82-7257-44b7-ae4c-0a5636dcef411629139193929
+  action = addentity
+  y = -46
+  delayappearance = true
+  playername = LiquidTea
+  parrot = false
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 1.2
+  slim = true
+  scale = 15
+  showname = false
+  crouching = false
+  x = -108
+  actionid = 0ca7fee9-8edf-4a14-90da-7d3b4c1b44051629139195840
+  action = addentity
+  y = 48
+  delayappearance = true
+  playername = imaphoenix
+  parrot = false
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 1.2
+  slim = false
+  scale = 15
+  showname = false
+  crouching = false
+  x = -108
+  actionid = 0ca7fee9-8edf-4a14-90da-7d3b4c1b44051629139195840
+  action = addentity
+  y = 16
+  delayappearance = true
+  playername = Writzi
+  parrot = false
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  delayappearanceseconds = 1.2
+  x = -76
+  actionid = 0885027e-1db1-4fdc-85f3-cb2d78c0ba5e1629139684789
+  action = addtext
+  y = -68
+  scale = 1.0
+  delayappearance = true
+  alignment = left
+  value = Welcome to CWS %playername%!
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = top-centered
+  delayappearanceseconds = 1.5
+  path = resources/mainmenu/textures/title2.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -180
+  width = 360
+  actionid = c9ed9a29-56be-4967-81dd-723ad5388a4f1629992814888
+  action = addtexture
+  y = 4
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 50
+}
+
+customization {
+  orientation = mid-right
+  delayappearanceseconds = 1.2
+  slim = true
+  scale = 15
+  showname = false
+  crouching = false
+  x = -108
+  actionid = 6b5e2c82-7257-44b7-ae4c-0a5636dcef411629139193929
+  action = addentity
+  y = -14
+  delayappearance = true
+  playername = TristanPoland
+  parrot = false
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 3
+  actionid = d5906019-8d78-43ec-83cb-167cec607a9e1630066340818
+  action = addtext
+  y = -9
+  scale = 1.0
+  alignment = left
+  value = Logged in as: %playername%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 5
+  actionid = 5c3d51bd-364c-4961-8289-ab8149a71d531630066492357
+  action = addtext
+  y = -76
+  scale = 1.0
+  alignment = left
+  value = Debug Info:
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = bottom-right
+  x = -200
+  width = 204
+  actionid = 1df6f2ef-14c6-499b-89cf-64ec09a59e921630066294562
+  action = addtexture
+  y = -16
+  height = 17
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 1.9
+  buttonaction = opencustomgui
+  label = Announcements
+  fadein = true
+  fadeinspeed = 1.0
+  x = -99
+  width = 200
+  actionid = 21ce88ec-a808-4a7c-953a-a4290d791daa1630165830861
+  action = addbutton
+  y = -98
+  delayappearance = true
+  value = announcements
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 2.3
+  buttonaction = opencustomgui
+  label = Top Patrons
+  fadein = true
+  fadeinspeed = 1.0
+  x = -99
+  width = 200
+  actionid = bfab46ff-e598-43ac-bc63-3d6d0c1faa631630165830861
+  action = addbutton
+  y = -29
+  delayappearance = true
+  value = Top-Patrons
+  delayappearanceeverytime = false
+  height = 20
+}
+

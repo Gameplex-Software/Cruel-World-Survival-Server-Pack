@@ -1,0 +1,18 @@
+type = menu
+
+customization-meta {
+  identifier = betteradvancements.gui.GuiScreenBetterAdvancements
+  renderorder = foreground
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  centered = false
+  x = -216
+  action = addtext
+  y = -12
+  scale = 1.0
+  value = This version of the advancements screen is in beta, and may not behave as expected
+}
+

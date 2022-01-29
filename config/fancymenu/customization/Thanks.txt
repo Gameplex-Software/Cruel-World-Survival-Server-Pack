@@ -1,0 +1,95 @@
+type = menu
+
+customization-meta {
+  identifier = Thanks
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/mainmenu/textures/title.png
+  orientation = top-centered
+  x = -154
+  width = 308
+  actionid = 60ca5467-3086-4ea0-96f2-6f39abea6cee1629141920768
+  action = addtexture
+  y = 0
+  height = 34
+}
+
+customization {
+  path = resources/minecraft-make-book-and-quill-step-1.png
+  orientation = mid-centered
+  x = -265
+  width = 530
+  actionid = 7831e167-5baa-4a08-8723-720b9bb896881629141920769
+  action = addtexture
+  y = -216
+  height = 436
+}
+
+customization {
+  path = resources/creators/other_thanks.png
+  orientation = mid-centered
+  x = -232
+  width = 461
+  actionid = 706c48bc-03ec-4ac9-ab53-505a32eee8ba1629141920769
+  action = addtexture
+  y = -191
+  height = 236
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -38
+  actionid = ead7fedb-14e1-4c0a-b99e-24c5348d3b161629141920769
+  action = addtext
+  y = -208
+  scale = 1.0
+  alignment = left
+  value = Other thanks
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opengui
+  x = -176
+  width = 164
+  actionid = 8b02fe59-db32-404b-95dc-3a746b66787f1629141920770
+  action = addbutton
+  y = 167
+  label = Back To Menu
+  value = net.minecraft.client.gui.GuiMainMenu
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -8
+  width = 164
+  actionid = 2ab80a22-7312-491a-9f70-6e894fc303081629141920770
+  action = addbutton
+  y = 167
+  label = Developer page
+  value = Credits
+  height = 20
+}
+
+customization {
+  showname = false
+  orientation = bottom-left
+  crouching = false
+  x = 25
+  slim = false
+  actionid = 3c9fea5d-b2c5-430a-a590-5ee289595cea1629141312027
+  action = addentity
+  y = -9
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+

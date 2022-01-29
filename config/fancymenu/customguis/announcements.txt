@@ -1,0 +1,3 @@
+identifier = announcements
+title = 
+allowesc = true

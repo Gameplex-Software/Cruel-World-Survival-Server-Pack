@@ -1,0 +1,60 @@
+type = menu
+
+customization-meta {
+  identifier = about_imaphoenix
+  renderorder = foreground
+}
+
+customization {
+  path = resources/minecraft-make-book-and-quill-step-1.png
+  orientation = mid-centered
+  x = -191
+  width = 382
+  action = addtexture
+  y = -180
+  height = 360
+}
+
+customization {
+  path = resources/creators/imaphoenix.png
+  orientation = mid-centered
+  x = -180
+  width = 35
+  action = addtexture
+  y = -169
+  height = 35
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  centered = false
+  x = -140
+  action = addtext
+  y = -155
+  scale = 1.0
+  value = ImaPhoenix
+}
+
+customization {
+  path = resources/creators/about_imaphoenix.png
+  orientation = mid-centered
+  x = -178
+  width = 355
+  action = addtexture
+  y = -126
+  height = 122
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = opencustomgui
+  x = -45
+  width = 100
+  action = addbutton
+  y = 151
+  label = Close Profile
+  value = Credits
+  height = 20
+}
+

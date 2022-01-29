@@ -1,0 +1,59 @@
+type = menu
+
+customization-meta {
+  identifier = GUICommunityCreations
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = mid-centered
+  name = main
+  x = -415
+  width = 832
+  actionid = 4a80fd62-eff5-4a3d-9de4-e73d9c3757df1629385693659
+  action = addslideshow
+  y = -241
+  height = 491
+}
+
+customization {
+  path = resources/cclogo.png
+  orientation = top-centered
+  x = -174
+  width = 349
+  actionid = 90b72de0-1b66-478b-9d9d-098f2dc16f0e1629385973509
+  action = addtexture
+  y = 34
+  height = 44
+}
+
+customization {
+  orientation = top-left
+  buttonaction = opengui
+  x = 70
+  width = 100
+  actionid = df2720d2-53bc-4a40-8bfd-76946a603c2f1630067170167
+  action = addbutton
+  y = 525
+  label = Back
+  value = net.minecraft.client.gui.GuiMainMenu
+  height = 20
+}
+
+customization {
+  showname = false
+  orientation = bottom-left
+  crouching = false
+  x = 24
+  slim = false
+  actionid = 3c9fea5d-b2c5-430a-a590-5ee289595cea1629141312027
+  action = addentity
+  y = -9
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+

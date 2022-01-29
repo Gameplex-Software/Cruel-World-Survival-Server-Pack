@@ -1,0 +1,24 @@
+type = menu
+
+customization-meta {
+  identifier = net.optifine.gui.GuiChatOF
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  showname = false
+  orientation = top-left
+  crouching = false
+  x = 917
+  slim = false
+  actionid = 101d858c-3faf-481e-bf5f-d11f956bb7ab1629143438980
+  action = addentity
+  y = 557
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+

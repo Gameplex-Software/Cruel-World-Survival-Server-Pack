@@ -1,0 +1,9 @@
+&6&k{radio}&r&f&l My Awesome Server &r&6&k{radio}&r
+&a==========================&r
+&7- &4&oSome
+&7- &6&oSample
+&7- &9&otext && more text
+&a==========================&r
+&l&oPlayers Online: {playercount}/{maxplayers}
+Difficulty: {difficulty}
+&2Minecraft Version: &d{mcversion}

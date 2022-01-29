@@ -1,0 +1,77 @@
+type = menu
+
+customization-meta {
+  identifier = announcements
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = minecraftyoutube
+  action = animatebackground
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-centered
+  x = -315
+  width = 628
+  actionid = e7e8e27d-9b3a-4a3b-a11a-0bf2e0946c361630156613104
+  action = addtexture
+  y = -129
+  height = 339
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = closegui
+  x = 6
+  width = 100
+  actionid = ee6a7dc0-f83c-448a-9235-14b54f400ddf1630166276900
+  action = addbutton
+  y = 184
+  label = Back
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  multiline = true
+  x = -296
+  action = addwebtext
+  actionid = 6fb6a73d-1d64-48ef-8684-3a58d25908dd1630157357447
+  y = -100
+  scale = 1.0
+  alignment = left
+  url = https://gameplex-software.github.io/sites/cws/announcements.txt
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -44
+  actionid = 91a304f5-d72f-4473-8941-b15eb1aeb29c1630157572556
+  action = addtext
+  y = -126
+  scale = 1.0
+  alignment = left
+  value = §9§lAnnouncements
+}
+
+customization {
+  orientation = mid-centered
+  buttonaction = reloadmenu
+  x = -98
+  width = 100
+  actionid = bb777477-1cc3-4a71-bd5e-2f0352f1b66b1630166280890
+  action = addbutton
+  y = 184
+  label = Refresh
+  value = 
+  height = 20
+}
+
