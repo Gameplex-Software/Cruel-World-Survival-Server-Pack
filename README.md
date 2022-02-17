@@ -4,8 +4,6 @@ Official server pack for the Cruel World Survival modpack
 ![Screen Shot 2021-07-15 at 1 49 24 PM](https://user-images.githubusercontent.com/34868944/151664875-951d4348-a898-44a7-87ab-717cd8e91570.png)
 # Immersive Railroading was removed from mods folder on GitHub due to size, please re-add it
 
-![Screen Shot 2021-07-10 at 6 55 41 PM](https://user-images.githubusercontent.com/34868944/154391795-a0188a4c-43f0-4652-a0c9-3208a91d6962.png)
-
 <p>&nbsp;<span style="font-size: 24px;"><strong>About Cruel World Survival</strong></span></p>
 <p><span style="font-size: 24px;"><strong><img src="https://i.ibb.co/3FnH1k0/Screen-Shot-2021-07-15-at-5-26-07-PM.png" alt="" width="296" height="22" /></strong></span></p>
 <p>&nbsp;</p>
